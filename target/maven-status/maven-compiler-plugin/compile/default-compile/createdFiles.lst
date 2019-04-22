@@ -1,0 +1,6 @@
+br/com/kroton/kt/KtApplication.class
+br/com/kroton/kt/repository/PessoaRepository.class
+com/deunacabeca/api/controller/exception/PessoaNotFoundException.class
+br/com/kroton/kt/controller/PessoaController.class
+com/deunacabeca/api/controller/exception/PessoaNotFoundAdvice.class
+br/com/kroton/kt/model/Pessoa.class

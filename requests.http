@@ -1,0 +1,23 @@
+GET http://localhost:8080/api/pessoas/1 HTTP/1.1
+
+POST http://localhost:8080/api/pessoas HTTP/1.1
+Content-Type: application/json
+
+{
+    "nome": "Mano Alexandre",
+    "dataNascimento": "1500-04-18",
+    "filhos": 1,
+    "sexo": "M"
+}
+
+PUT http://localhost:8080/api/pessoas/1 HTTP/1.1
+Content-Type: application/json
+
+{
+    "nome": "Mano Fanta",
+    "dataNascimento": "1995-03-12",
+    "filhos": 0,
+    "sexo": "M"
+}
+
+DELETE http://localhost:8080/api/pessoas/1 HTTP/1.1
